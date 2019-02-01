@@ -11,8 +11,10 @@ $chunkSize = 100;
 $id1c = 9999;
 
 
-$link = mysql_connect('localhost', 'hotelmj7_new1', 'P@ssw0rd');
-mysql_select_db('hotelmj7_new1', $link);
+
+$link = mysql_connect('сервер', 'пользователь', 'пароль');
+mysql_select_db('БД', $link);
+
 
 
 if ($_GET['event'] == 'doBackUp') {
