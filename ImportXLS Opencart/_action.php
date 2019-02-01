@@ -26,8 +26,8 @@ if ($_POST['password'] !== 'admin') {
 $sm_base= '../importXLS/';
 $module_url= '../importXLS/_action.php';
 
-$link = mysql_connect('localhost', 'hotelmj7_new1', 'P@ssw0rd');
-mysql_select_db('hotelmj7_new1', $link);
+$link = mysql_connect('сервер', 'пользователь', 'пароль');
+mysql_select_db('БД', $link);
 
 /********CONFIG**********/
 $template = 1;
